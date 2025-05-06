@@ -28,6 +28,9 @@ dependencies {
     implementation("com.fasterxml.jackson.module:jackson-module-kotlin")
     implementation("org.jetbrains.kotlin:kotlin-reflect")
 
+    // validation
+    implementation("org.springframework.boot:spring-boot-starter-validation")
+
     // jpa
     implementation("org.springframework.boot:spring-boot-starter-data-jpa")
 
