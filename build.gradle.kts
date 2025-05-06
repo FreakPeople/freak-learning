@@ -1,18 +1,11 @@
-plugins {
-    id("java")
-}
+plugins {}
 
 group = "yjh.ontongsal"
 version = "1.0-SNAPSHOT"
 
-subprojects {
-    apply(plugin = "java")
 
+subprojects {
     repositories {
         mavenCentral()
-    }
-
-    tasks.test {
-        useJUnitPlatform()
     }
 }
